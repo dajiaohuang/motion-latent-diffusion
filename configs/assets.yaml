@@ -11,8 +11,8 @@ DATASET:
     ROOT: './datasets/kit-ml' # KIT directory
     SPLIT_ROOT: './datasets/kit-ml' # KIT splits directory
   HUMANML3D:
-    ROOT: './datasets/humanml3d' # HumanML3D directory
-    SPLIT_ROOT: './datasets/humanml3d' # HumanML3D splits directory
+    ROOT: '/data/xuliang/Motion/HumanML3D' #'./datasets/humanml3d' # HumanML3D directory
+    SPLIT_ROOT: '/data/xuliang/Motion/HumanML3D' # './datasets/humanml3d' # HumanML3D splits directory
   HUMANACT12:
     ROOT: ./datasets/HumanAct12Poses
     SPLIT_ROOT: ./datasets/HumanAct12Poses
