@@ -6,7 +6,7 @@ TEST:
 DATASET:
   SMPL_PATH: '/data/xuliang/mld/smpl_models/smpl' # './deps/smpl'
   TRANSFORM_PATH: './deps/transforms/'
-  WORD_VERTILIZER_PATH: './deps/glove/'
+  WORD_VERTILIZER_PATH: '/data/xuliang/mld/t2m/glove' # './deps/glove/'
   KIT:
     ROOT: './datasets/kit-ml' # KIT directory
     SPLIT_ROOT: './datasets/kit-ml' # KIT splits directory
