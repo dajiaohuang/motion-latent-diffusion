@@ -1,5 +1,5 @@
 cd deps/
 # yum -y install git-lfs
 git lfs install
-git clone https://huggingface.co/distilbert-base-uncased
+git clone https://hf-mirror.com/distilbert-base-uncased
 cd ..
