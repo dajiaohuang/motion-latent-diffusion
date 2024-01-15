@@ -31,7 +31,7 @@ EVAL:
 
 # Test Configuration
 TEST:
-  CHECKPOINTS: ./models/novae_humanml3d_checkpoint/1216_novae_humanml3d.ckpt # Pretrained model path
+  CHECKPOINTS: /data/1216_novae_humanml3d.ckpt #./models/novae_humanml3d_checkpoint/1216_novae_humanml3d.ckpt # Pretrained model path
   DATASETS: ['humanml3d'] # training datasets
   SPLIT: test
   BATCH_SIZE: 1 # training Batch size
