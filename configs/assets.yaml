@@ -23,8 +23,8 @@ DATASET:
     DB_ROOT: /apdcephfs/share_1227775/shingxchen/uicap/data/vibe_db
 
 model:
-  bert_path: './deps/distilbert-base-uncased' # bert model path for all text encoders
-  clip_path: './deps/clip-vit-large-patch14' # bert model path for all text encoders
+  bert_path: '/data/xuliang/mld/clip-vit-large-patch14' #'./deps/distilbert-base-uncased' # bert model path for all text encoders
+  clip_path: '/data/xuliang/mld/clip-vit-large-patch14' #'./deps/clip-vit-large-patch14' # bert model path for all text encoders
   t2m_path: '/data/xuliang/mld/t2m/t2m' # './deps/t2m/'
 
   humanact12_rec_path: './deps/actionrecognition'
